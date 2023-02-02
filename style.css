@@ -1,0 +1,491 @@
+body{
+  width: 100%;
+  
+  margin: 0;
+}
+.logo{
+  display: flex;
+  justify-content: space-between;
+  height: 130px;
+}
+
+.header{
+  display: flex;
+  justify-content: baseline;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  width:100%;
+  background-color: aliceblue;
+  padding: auto;
+  
+}
+.button{
+  background-color: aliceblue;
+  border: none;
+  
+  color: rgb(3, 3, 65);
+  padding: 10px 14px;
+  cursor: pointer;
+  font-size: 18px;
+  display: flex;
+}
+.button:hover{
+  
+  text-decoration: underline green;
+
+}
+/*.third>img{
+  width: 15%;
+  height: 140px;
+  margin: 0;
+}   */
+/*.button7{
+   background-color: aliceblue;
+   border: 2px solid green;
+   border-radius: 3px;
+   font-size: 15px;
+   color: rgb(3, 3, 65);
+   cursor: pointer;
+   padding: 5px;
+   margin: 50% 0;
+   
+   
+}
+.button7:hover{
+  background-color: green;
+}*/
+.first>img{
+  width:100%;
+  z-index: 1;
+  position: relative;
+}
+.first{
+  position: relative;
+  width: 100%;
+}
+.box{
+  background-color: rgba(4, 4, 110, 0.8);
+  color: white;
+  padding: 15px;
+  z-index: 2;
+  width: 25%;
+  position: absolute;
+  left: 50px;
+  bottom: -30px;
+}
+.third{
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+  width: 100%;
+}
+
+.start{
+  background-color: rgb(4, 4, 110);
+  height: 300px;
+  margin: 5% 5% 5% 0;
+}
+hr{
+  width:100%;
+}
+.third > img{
+  width:45%;
+  height: 300px;
+  margin:5% 0 5% 5%;
+}
+.zhazu{
+  margin: 5%;
+  color: white;
+  font-size: 20px;
+
+}
+.button8 {
+   background-color:rgb(4, 4, 110) ;
+   border: 2px solid green;
+   border-radius: 3px;
+   font-size: 15px;
+   color: white;
+   cursor: pointer;
+   position: absolute;
+   padding: 8px;
+   margin: 2%;
+
+
+}
+.button8:hover{
+  background-color: green;
+  color: white;
+}
+.image2{
+  width:10%;
+  height: 50%;
+  
+}
+h6{
+  font-size: 2rem;
+  font-family: 'Trebuchet MS', sans-serif;
+  text-align: left;
+}
+
+
+.about{ 
+  width:33.3%; 
+  background-color: rgb(8, 8, 58); 
+  text-align: center; 
+  color: white; 
+  padding: 5%; 
+  margin:  2%; 
+} 
+
+.about h6 { 
+   color: rgb(47, 47, 141); 
+} 
+
+#info{ 
+  font-size: 18px; 
+} 
+
+
+.text1 { 
+   background-color: white ;
+  border: 2px solid green; 
+  border-radius: 3px; 
+  font-size: 15px; 
+  color: black; 
+  cursor: pointer; 
+  position: initial; 
+  padding: 8px; 
+  margin-top: 20px;
+}
+
+
+
+.text1:hover{ 
+ background-color: green; 
+ color: white; 
+}
+
+
+
+
+
+
+
+
+
+.row p{
+  text-decoration: none;
+  color: black;
+}
+.fourth{
+  display: flex;
+  font-size: 18px;
+  text-align: center;
+  height: 300px;
+  
+}
+.vl {
+   border-left: 1px solid black;
+   height: 300px;
+   
+   top: 10;
+}
+.veter{
+   width: 60%;
+   padding: 15px;
+}
+.how{
+  padding-left: 30px;
+  padding: 15px 30px;
+  width: 50%;
+}
+.share{
+  color: black;
+  font-size: 20px;
+
+}
+.fourth > hr{
+  display: none;
+}
+.fifth> img{
+  z-index: 1;
+  position: relative;
+  width: 100%;
+}
+.fifth{
+  position: relative;
+  
+}
+#avma{
+  font-size: 2em;
+  text-decoration: none;
+  color: white;
+}
+#more{
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+.convention{
+  background-color: rgba(4, 4, 110, 0.8);
+  z-index: 2;
+  position: absolute;
+  width: 33%;
+  height: 300px;
+  top: 50px;
+  right:50px;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  
+
+}
+.button9{
+  background-color:rgba(4, 4, 110, 0.5) ;
+   border: 2px solid green;
+   border-radius: 6  px;
+   font-size: 15px;
+   color: white;
+   cursor: pointer;
+   position: initial;
+   padding: 8px;
+   
+}
+.button9:hover{
+  background-color: green;
+  color: white;
+}
+.nav{
+  float: left;
+ 
+}
+
+#toggle{
+  display: none;
+}
+label{
+  margin: 8px 0 0 20px;
+  font-size:30px;
+  display:none;
+}
+.seventh{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  
+  
+}
+.seventh a{
+  text-decoration: none;
+  
+}
+.seventh1{
+  width: 33.3%;
+  margin:  2%;
+}
+.seventh1 a{
+  color: rgb(47, 47, 141);
+}
+.seventh2{
+  width: 90%;
+  color: black;
+  font-size: medium;
+  margin:  2%;
+  padding-top: 13%;
+  padding-bottom: 13%;
+  border-bottom: 5px solid green;
+  text-align: left;
+}
+.seventh2>img{
+   width: 30em;
+}
+.seventh3{
+  width:33.3%;
+  background-color: rgb(8, 8, 58);
+  text-align: center;
+  color: white;
+  padding: 5%;
+  margin:  2%;
+}
+.seventh3> img{
+  width: 20%;
+  height: 20%;
+}
+.seventh3 h1 {
+   color: rgb(47, 47, 141);
+}
+#chronic{
+  font-size: 23px;
+}
+#discover{
+  font-size: 18px;
+}
+.button10 {
+  background-color: rgb(8, 8, 58) ;
+  border: 2px solid green;
+  border-radius: 3px;
+  font-size: 15px;
+  color: white;
+  cursor: pointer;
+  position: initial;
+  padding: 8px;
+  margin: 2%;
+
+
+}
+.button10:hover{
+ background-color: green;
+ color: white;
+}
+
+@media only screen and (max-width:700px) {
+    body{
+      width: 100%;
+    }
+  label{
+      display: block;
+      cursor: pointer;
+    }
+    .header{
+      display: block;
+      text-align: center;
+      font-size: 20px;
+      padding-top: 50px;
+      height: 450px;
+      text-transform: uppercase;
+      width: 100%;
+    }
+    .header button{
+      text-transform: uppercase;
+      text-align: center;
+      border-top: 1px solid grey;
+      padding: 15px 0;
+      width: 100%;
+      font-size: 20px;
+    }
+    .button7{
+      position: initial;
+    }
+    .header > button{
+      text-align: center;
+    }
+
+    #toggle:checked + .header{
+      display: none;
+    }
+    .first{
+      display:block;
+      position: absolute;
+      height: 600px;
+    }
+    .box{
+      width: 100%;
+    
+      bottom: auto;
+      left: auto;
+      background-color: rgb(4, 4, 110);
+    }.first>img{
+      width: 100%;
+      
+      
+    }
+    .third{
+      width: 100%;
+      margin-top: 50%;
+      display: block;
+      
+      
+    }
+    .third>img{
+      width: 100%;
+      padding: 0;
+      
+    }
+    .start{
+      width: 100%;
+      
+    }
+    .button8{
+      margin: 5%;
+    }
+    .zhazu{
+      margin-top: 5%;
+    }
+    .fifth{
+      display: block;
+      width: 100%;
+      position: absolute;
+      margin-top: 40%;
+      margin-bottom: 40%;
+
+    }
+    .convention{
+      width: 100%;
+      top: auto;
+      right: auto;
+      height: auto;
+      background-color: rgb(4, 4, 110);
+    }
+    .seventh{
+      display: block;
+      margin-top: 100%;
+    }
+    .seventh1{
+      width:100%;
+      
+    }
+    .seventh2{
+      width: 100%;
+      margin-bottom: 10%;
+    }
+    .seventh3{
+      width: 100%;
+    }
+    .seventh2>img{
+      width: 100%;
+    }
+    .fourth{
+      display: flex;
+      flex-direction:column;
+      height: 400px;
+      width: 100%;
+      margin: 0;
+    }
+    .vl{
+      display: none;
+
+    }
+    hr{
+      size: 20%;
+      
+    }
+    .veter{
+      width:100%;
+      padding: 15px;
+    }
+    .how{
+      width: 100%;
+      padding: 15px;
+    }
+    /*.sixth{
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+      width: 100%;
+    }
+    .ush{
+      width:100%;
+      margin: 0;
+      padding: 0;
+    }
+    .bir{
+      margin-top: 90%;
+      width:3cm;
+    }*/
+    
+
+
+}
